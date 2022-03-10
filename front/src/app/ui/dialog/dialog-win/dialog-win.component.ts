@@ -2,7 +2,7 @@ import { Component, ElementRef, Inject, ViewChild } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { encrypt } from 'src/app/util/aes-util';
 
-const EMOJI_MAP = new Map<number, string>([[0, '🟦'], [1, '🟡'], [2, '🟥']]);
+const EMOJI_MAP = new Map<number, string>([[0, '🅱️'], [1, '🅱️'], [2, '🅱️']]);
 
 export interface IDialogData {
 	word: string;
